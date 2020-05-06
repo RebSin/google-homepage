@@ -1,0 +1,147 @@
+#googlelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.7%;    
+}
+
+#searchbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;    
+    width: 40%;
+    padding: 5px 8px 0 16px;
+    border: 1px solid #dfe1e5;
+    height: 40px;
+    border-radius: 24px;
+    background-color: white;
+}
+
+#funButtons {
+   display: block; 
+   text-align: center;
+   margin-top: 2%; 
+}
+
+#googleSearch {
+    font-size: 80%;
+    padding: 12px;   
+    background-color:#f8f8f8;
+    color: #484848;
+}
+#imFeeling {
+    font-size: 80%;
+    padding: 12px;   
+    margin-left: 1%;
+    background-color:#f8f8f8;
+    color: #484848;
+}
+
+#factLink {
+    display: block;
+    text-align:center;
+    margin-top: 2%;    
+    font-size: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#offeredIn {
+    display: block;
+    text-align: center;
+    margin-top: 2.5%;  
+    font-size: 75%;  
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+#topNav {
+    margin-top: 1%;
+}
+
+#about {
+    font-size: 75%;
+    color: #000;
+}
+
+#store {
+    font-size: 75%;
+    color: #000;
+}
+
+#gmail {
+    font-size: 75%;
+    color: #000;
+}
+
+#images {
+    font-size: 75%;
+    color: #000;
+}
+
+#box {}
+
+#signin {
+    font-size: 75%; 
+    background-color:#4387fd;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+
+#bottomNav {
+    margin-top: 1%; 
+}
+
+#location{
+    margin-top: 10%; 
+    padding: 10px;
+    font-size: 85%;
+    color:rgba(0,0,0,.54);
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+}
+
+#advertising {
+    font-size: 85%;
+    color:rgba(0,0,0,.54);
+}
+
+#business {
+    font-size: 85%;
+    color:rgba(0,0,0,.54)
+}
+
+#searchWrks {
+    font-size: 85%;
+    color:rgba(0,0,0,.54);
+}
+#privacy {
+    font-size: 85%;
+    color:rgba(0,0,0,.54);
+    margin-top: -0.5%;
+
+}
+#terms {
+    font-size: 85%;
+    color:rgba(0,0,0,.54);
+    margin-top: -0.5%;
+}
+#settings {
+    font-size: 85%;
+    color:rgba(0,0,0,.54);
+    margin-top: -0.5%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+}

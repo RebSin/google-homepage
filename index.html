@@ -3,18 +3,22 @@
     <head>
         <meta charset="utf-8"/>
         <title> Google Homepage </title>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <nav>
-            <a href="#"> About </a>
-            <a href="#"> Store </a>
-            <a href="#"> Gmail </a>
-            <a href="#"> Images </a>
-            <a href="#"> BOX </a>
-            <a href="#"> Sign in </a>
-        </nav>
+        <header>
+            <nav id ="topNav">
+                <a id ="about" href="#"> About </a>
+                <a id ="store" href="#"> Store </a>
+                <a style ="float: right;" id ="signin" href="#"> Sign in </a>
+                <a style ="float: right;" id ="box" href="#"> BOX </a>
+                <a style ="float: right;" id ="images" href="#"> Images </a>
+                <a style ="float: right;" id ="gmail" href="#"> Gmail </a>
+            </nav>
+        </header>
+    
         <img id ="googlelogo" src ="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"/>
-        <form>
+        <form id ="searchForm">
             <input id ="searchbox" type ="text">
         </form>
         <nav id = "funButtons">
@@ -22,17 +26,17 @@
             <a id="imFeeling" href="#">I'm Feeling Lucky</a>
         </nav>
         <a id="factLink" href ="#"> Get COVID-19 facts from one of Canada's leading experts </a>
-        <p> Google offered in: <a href ="#">Francais</a></p>
+        <p id ="offeredIn"> Google offered in: <a href ="#">Francais</a></p>
 
         <footer>
             <p id ="location">Canada</p>
-            <nav>
-                <a href ="#">Advertising </a>
-                <a href ="#"> Business </a>
-                <a href ="#"> How Search works</a>
-                <a href ="#"> Privacy </a>
-                <a href ="#"> Terms </a>
-                <a href ="#"> Settings </a>
+            <nav id ="bottomNav">
+                <a id = "advertising" href ="#">Advertising </a>
+                <a id = "business" href ="#"> Business </a>
+                <a id = "searchWrks" href ="#"> How Search works</a>
+                <a style ="float: right;" id = "settings" href ="#"> Settings </a>
+                <a style ="float: right;" id = "terms" href ="#"> Terms </a>
+                <a style ="float: right;" id = "privacy" href ="#"> Privacy </a>
             </nav>
         </footer>
     </body>
